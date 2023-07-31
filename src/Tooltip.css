@@ -1,0 +1,76 @@
+.tooltip-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* Style for the form container */
+  .form-container {
+    flex: 1;
+  }
+  
+  /* Style for the tooltip buttons container */
+  .tooltip-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for each tooltip button */
+  .tooltip-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the target button */
+  .target-button {
+    background-color: #000;
+  }
+  
+  /* Style for the tooltip text */
+  .tooltip {
+    background-color: #f9f9f9;
+    color: #000;
+    border: 1px solid #ccc;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Style for the options container */
+  .options-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  /* Style for the hovered button box */
+  .hovered-button-box {
+    background-color: #f9f9f9;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Style for button layout */
+  .button-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .button-layout > .top-buttons {
+    margin-bottom: 10px;
+  }
+  
+  .button-layout > .bottom-buttons {
+    margin-top: 10px;
+  }
